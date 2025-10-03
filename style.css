@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background-color: green;
-    padding: 1em 0 6px 0;
+    background-color: oklab(55.408% -0.02463 -0.22847);
+    padding: 1em 0 5px 0;
 }
 
 .boxed {
@@ -19,16 +19,13 @@ header {
     margin: 0 auto;
 }
 
-.min {
-    border: dashed 2px black
-}
-
 #header-uno {
-    background-color: red;
+    
 }
 
 .flex-container {
     display: flex;
+    text-align: center;
 }
 
 .nav-logo{
@@ -37,20 +34,27 @@ header {
 }
 
 .nav-links {
+    margin: 2px;
     width: 60%;
     padding: 1em;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
-.nav-login {
-    width: 20%;
-    padding: 1em;
+.bottone {
+    margin: 1em;
+    padding: 5px;
     text-align: right;
+    border-radius: 20%;
 }
 
 .quadro-content {
-    background-color: blueviolet;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    
     
 
 }
@@ -64,18 +68,34 @@ header {
 
 
 .quadro {
-    background-color: blue;
-    justify-content: center;
-    margin-top: 10px;
+    background-image: url(./imag/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    justify-items: center;
+    padding: 4em;
    
 }
 
+.imag {
+    margin: 0px 0;
+}
+
 .colonna-uno {
-background-color: brown;
 width: 60%;
-min-height: 400px;
+min-height: 400%;
 margin-top: 20px;
 margin-bottom: 20px;
+margin-right: 50px;
+background-color: black;
+
+}
+
+h2 {
+    margin: 20%;
+    text-align: center;
+    display: flex;
+    justify-items: flex-end;
 }
 
 .colonna-due {
@@ -84,10 +104,11 @@ margin-bottom: 20px;
     min-height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 30px;
 
 } 
 .acqua {
-    background-color: aqua;
+    background-color: white
 
      
 }
@@ -114,10 +135,13 @@ margin-bottom: 20px;
 
 .colonna-due-g {
     background-color: blueviolet;
-    width: 60%;
-    min-height: 400px;
+    width: 100%;
+    min-height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 
 } 
 
